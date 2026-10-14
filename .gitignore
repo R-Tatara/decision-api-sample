@@ -1,0 +1,43 @@
+# ===== Environment / Secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+
+# ===== AI Tools / GitHub Config =====
+.claude/
+.github/
+AGENTS.md
+
+# ===== Logs =====
+*.log
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+
+# ===== Linter / Type Checker Cache =====
+.ruff_cache/
+
+# ===== Virtual Environment =====
+.venv/
+
+# ===== Build / Packaging =====
+build/
+dist/
+*.egg-info/
+
+# ===== Test / Coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Model Files =====
+*.pt
