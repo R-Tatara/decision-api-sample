@@ -1,0 +1,14 @@
+[project]
+name = "decision-api-sample"
+version = "0.1.0"
+description = "A sample application using the OpenAI Decision API with RealSense camera input"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.6",
+    "openai>=3.29.0",
+    "opencv-python>=5.0.0.93",
+    "pyrealsense2>=2.59.1.11053",
+]
